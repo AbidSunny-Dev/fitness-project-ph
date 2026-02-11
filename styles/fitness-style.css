@@ -187,6 +187,21 @@ body{
 .hamburger{
     display: inline;
 }
+.banner{
+    flex-direction: column;
+}
+.banner-content , .banner-img-container{
+    width: 100%;
+}
+ .tooltip2{
+    left: 20%;
+    right: 20%;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 
 }
