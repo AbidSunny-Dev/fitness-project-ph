@@ -205,6 +205,35 @@ body{
     font-size: .8rem;
     
 }
+/* run section */
+
+.run{
+    border-radius: 18px;
+    margin-top: 30px;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 30px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 134px;
+    margin-bottom: 100px;
+}
+.run-content{
+    width: 443px;
+}
+.run-title{
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+.run-description{
+    font-size: .8rem;
+    margin-bottom: 34px;
+}
+
+.run-img-container img{
+ width: 366px;
+ height: 312px;
+ border-radius: 12px;
+}
 
 
 
@@ -228,9 +257,10 @@ body{
 .hamburger{
     display: inline;
 }
-.banner{
+.banner,.run{
     flex-direction: column;
 }
+
 .banner-content , .banner-img-container{
     width: 100%;
 }
@@ -254,6 +284,19 @@ body{
     margin-top: 30px;
 
 }
+.run-content,.run-img-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.run-content button{
+    display: block;
+    width: 100%;
+}
+.run-img-container{
+    margin-top: -45px;
+}
+
+
 
 
 }
