@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+
+/* share css */
+
+.navbar,.banner{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+
+.display-flex{
+    display: flex;
+}
+.primary-color{
+    color: #E6533C;
+}
+.primary-bg-color{
+    color: #E6533C;
+}
+
+
+
+
+
+
+
+
+
+
+/* navbar styling */
+
+.navbar{
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+
+.menu-items{
+    list-style: none;
+}
+.text-logo{
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-style: italic;
+}
+.menu-container{
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.menu-links{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    margin-right: 5px;
+
+}
+.home{
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 5px 8px;
+    font-weight: 700;
+}
