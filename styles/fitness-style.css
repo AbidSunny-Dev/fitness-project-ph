@@ -235,6 +235,147 @@ body{
  border-radius: 12px;
 }
 
+/* training section strt  */
+
+.training-content{
+    max-width: 671px;
+}
+
+.training-title{
+    font-size: 3rem;
+    margin-bottom: 14px;
+
+}
+.training-description{
+    font-size: .8rem;
+    margin-bottom: 58px;
+}
+
+.training-img-container{
+   margin-bottom: 88px;
+
+    display: grid;
+    
+    grid-template-columns: repeat(4,1fr);
+
+    grid-template-rows: repeat(2,200px);
+}
+.training-img-container>div{
+    position: relative;
+}
+.training-img-container>div>p{
+    position: absolute;
+    z-index: 1;
+}
+.excercise-1{
+    color: black;
+    top: 84%;
+    left: 8%;
+    font-weight: bold;
+}
+
+.excercise-2{
+    color: white;
+    top: 10%;
+    left: 10%;
+   
+}
+.excercise-3{
+    color: white;
+    top: 73%;
+    left: 10%;
+
+}
+.excercise-4{
+    color: white;
+    top: 18%;
+    left: 61%;
+}
+.excercise-5{
+    color: white;
+    top: 70%;
+    left: 20%;
+}
+.excercise-6{
+    color: white;
+    top: 68%;
+    left: 15%;
+}
+
+
+.training-img-container img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+.box-1{
+    background-color: rgba(6, 255, 210, 0.5);
+}
+.box-2{
+    grid-column: 2/span 2;
+    background-color: rgba(255, 0, 0, 0.3);
+    
+
+}
+.box-3{
+    background-color: rgba(204, 204, 204, 1);
+}
+.box-4{
+   grid-column: span 2;
+   background-color: rgba(155, 74, 74, 0.5);
+}
+.box-5{
+    background-color: rgba(66, 255, 0, 0.3);
+}
+.box-6{
+    background-color: rgba(0, 71, 255, 0.3);
+}
+/* team styling */
+
+.teams-content{
+    max-width: 671px;
+    margin: 0 auto;
+    text-align: center;
+  
+
+}
+.team-title{
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+.team-description{
+    font-size: .8rem;
+    margin-bottom: 58px;
+
+}
+
+.team-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,272px);
+    gap: 30px;
+  margin-bottom: 88px;
+}
+
+.team-card-container img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+   
+    
+
+}
+.trainer-card{
+    position: relative;
+}
+.trainer-info{
+position: absolute;
+
+z-index: 2;
+top: 77%;
+left: 10%;
+}
 
 
 
@@ -294,6 +435,22 @@ body{
 }
 .run-img-container{
     margin-top: -45px;
+}
+.training{
+    margin: 0 20px;
+}
+
+.training-img-container{
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.teams-content{
+    margin: 0 20px;
+}
+
+.team-card-container{
+    grid-template-columns: 1fr;
+    margin: 0 20px;
 }
 
 
